@@ -6,7 +6,7 @@ from spotipy.oauth2 import SpotifyOAuth
 import os
 from dotenv import load_dotenv
 
-load_dotenv(dotenv_path="C:/Users/badge/OneDrive/Desktop/100-days-of-python/day 46 Spotify/.env")
+load_dotenv(dotenv_path=".env_file_path")
 
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
